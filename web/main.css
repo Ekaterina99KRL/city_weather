@@ -1,0 +1,91 @@
+* {
+    font-family: 'Times New Roman', cursive, sans-serif;
+    box-sizing: border-box;
+    font-weight: 300;
+}
+
+body {
+    /*background: #ffff55;*/
+    /*background: -webkit-linear-gradient(to right, #acb6e5, #86fde8);*/
+    /*background: linear-gradient(to right, #acb6e5, #86fde8);*/
+
+    /*color: #ffffff;*/
+    /*padding: 50px;*/
+        background: #000 url(back2.gif); /* Фоновый цвет и фоновый рисунок*/
+		color: #fff; /*Цвет текста на странице*/
+		background-attachment: fixed; /* Фон страницы фиксируется */
+		background-repeat: repeat-x; /* Изображение повторяется по горизонтали */
+}
+
+#location {
+    display: block;
+    border: none;
+    position: absolute;
+    top: 20%;
+    left: 12%;
+    background: rgba(58, 58, 58, 0.53);
+    border-radius: 10px;
+    padding: 14px;
+    color: white;
+    outline: none;
+    width: 77%;
+    font-size: 30px;
+}
+
+#location::placeholder {
+    color: rgba(255, 255, 255, .9);
+    font-size: 20px;
+}
+
+#getWeatherBtn {
+    display: block;
+    border: none;
+    position: absolute;
+    top: 35%;
+    left: 24%;
+    background: rgba(42, 42, 42, 0.83);
+    border-radius: 10px;
+    padding: 10px;
+    color: #ffffff;
+    outline: none;
+    width: 50%;
+    font-size: 13px;
+    cursor: pointer;
+}
+#getWeatherBtn:hover {
+    color: #ffffff;
+    text-decoration: underline;
+    opacity: .9;
+}
+
+#info {
+    display: block;
+    border: none;
+    position: fixed;
+    top: 31%;
+    left: 15%;
+    background: rgba(58, 58, 58, 0.00);
+    border-radius: 10px;
+    padding: 0px;
+    color: white;
+    outline: none;
+    width: 77%;
+    font-size: 15px;
+    max-height: 15px;
+}
+
+#infoblock {
+    display: block;
+    border: none;
+    position: fixed;
+    top: 30%;
+    left: 12%;
+    background: rgba(58, 58, 58, 0.63);
+    border-radius: 10px;
+    padding: 15px;
+    color: white;
+    outline: none;
+    width: 77%;
+    font-size: 15px;
+    max-height: 15px;
+}
