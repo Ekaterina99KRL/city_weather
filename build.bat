@@ -1,0 +1,1 @@
+pyinstaller --onefile --clean --add-data "web;web" -i "web\favicon.ico" weather.py
